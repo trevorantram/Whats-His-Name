@@ -22,6 +22,15 @@
 		C1CB0A621D5FC636002CDB04 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CB0A611D5FC636002CDB04 /* NotificationController.swift */; };
 		C1CB0A641D5FC636002CDB04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CB0A631D5FC636002CDB04 /* Assets.xcassets */; };
 		C1CB0A681D5FC636002CDB04 /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C1CB0A4A1D5FC635002CDB04 /* WatchApp.app */; };
+		C1CB0A731D60C7C8002CDB04 /* libKairosSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A721D60C7C8002CDB04 /* libKairosSDK.a */; };
+		C1CB0A751D60C7E6002CDB04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A741D60C7E6002CDB04 /* UIKit.framework */; };
+		C1CB0A771D60C7EC002CDB04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A761D60C7EC002CDB04 /* Foundation.framework */; };
+		C1CB0A791D60C7F5002CDB04 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A781D60C7F5002CDB04 /* CoreImage.framework */; };
+		C1CB0A7B1D60C7FA002CDB04 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A7A1D60C7FA002CDB04 /* CoreMotion.framework */; };
+		C1CB0A7D1D60C7FF002CDB04 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A7C1D60C7FF002CDB04 /* CoreGraphics.framework */; };
+		C1CB0A7F1D60C803002CDB04 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A7E1D60C803002CDB04 /* AVFoundation.framework */; };
+		C1CB0A811D60C808002CDB04 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1CB0A801D60C808002CDB04 /* AudioToolbox.framework */; };
+		C1CB0A841D60C937002CDB04 /* Bridging header.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CB0A831D60C937002CDB04 /* Bridging header.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +114,17 @@
 		C1CB0A611D5FC636002CDB04 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		C1CB0A631D5FC636002CDB04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1CB0A651D5FC636002CDB04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CB0A711D60C7C8002CDB04 /* KairosSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KairosSDK.h; sourceTree = "<group>"; };
+		C1CB0A721D60C7C8002CDB04 /* libKairosSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKairosSDK.a; sourceTree = "<group>"; };
+		C1CB0A741D60C7E6002CDB04 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C1CB0A761D60C7EC002CDB04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1CB0A781D60C7F5002CDB04 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		C1CB0A7A1D60C7FA002CDB04 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C1CB0A7C1D60C7FF002CDB04 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C1CB0A7E1D60C803002CDB04 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C1CB0A801D60C808002CDB04 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C1CB0A821D60C937002CDB04 /* Whats His Name-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Whats His Name-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1CB0A831D60C937002CDB04 /* Bridging header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bridging header.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +132,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CB0A811D60C808002CDB04 /* AudioToolbox.framework in Frameworks */,
+				C1CB0A7F1D60C803002CDB04 /* AVFoundation.framework in Frameworks */,
+				C1CB0A7D1D60C7FF002CDB04 /* CoreGraphics.framework in Frameworks */,
+				C1CB0A7B1D60C7FA002CDB04 /* CoreMotion.framework in Frameworks */,
+				C1CB0A791D60C7F5002CDB04 /* CoreImage.framework in Frameworks */,
+				C1CB0A771D60C7EC002CDB04 /* Foundation.framework in Frameworks */,
+				C1CB0A751D60C7E6002CDB04 /* UIKit.framework in Frameworks */,
+				C1CB0A731D60C7C8002CDB04 /* libKairosSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,12 +170,21 @@
 		C1CB0A0E1D5FC60D002CDB04 = {
 			isa = PBXGroup;
 			children = (
+				C1CB0A801D60C808002CDB04 /* AudioToolbox.framework */,
+				C1CB0A7E1D60C803002CDB04 /* AVFoundation.framework */,
+				C1CB0A7C1D60C7FF002CDB04 /* CoreGraphics.framework */,
+				C1CB0A7A1D60C7FA002CDB04 /* CoreMotion.framework */,
+				C1CB0A781D60C7F5002CDB04 /* CoreImage.framework */,
+				C1CB0A761D60C7EC002CDB04 /* Foundation.framework */,
+				C1CB0A741D60C7E6002CDB04 /* UIKit.framework */,
 				C1CB0A191D5FC60D002CDB04 /* Whats His Name */,
 				C1CB0A2E1D5FC60E002CDB04 /* Whats His NameTests */,
 				C1CB0A391D5FC60E002CDB04 /* Whats His NameUITests */,
 				C1CB0A4B1D5FC635002CDB04 /* WatchApp */,
 				C1CB0A5A1D5FC635002CDB04 /* WatchApp Extension */,
 				C1CB0A181D5FC60D002CDB04 /* Products */,
+				C1CB0A711D60C7C8002CDB04 /* KairosSDK.h */,
+				C1CB0A721D60C7C8002CDB04 /* libKairosSDK.a */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +205,8 @@
 			children = (
 				C1CB0A1A1D5FC60D002CDB04 /* AppDelegate.swift */,
 				C1CB0A1C1D5FC60D002CDB04 /* ViewController.swift */,
+				C1CB0A821D60C937002CDB04 /* Whats His Name-Bridging-Header.h */,
+				C1CB0A831D60C937002CDB04 /* Bridging header.m */,
 				C1CB0A1E1D5FC60E002CDB04 /* Main.storyboard */,
 				C1CB0A211D5FC60E002CDB04 /* Assets.xcassets */,
 				C1CB0A231D5FC60E002CDB04 /* LaunchScreen.storyboard */,
@@ -417,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1CB0A841D60C937002CDB04 /* Bridging header.m in Sources */,
 				C1CB0A1D1D5FC60D002CDB04 /* ViewController.swift in Sources */,
 				C1CB0A1B1D5FC60D002CDB04 /* AppDelegate.swift in Sources */,
 			);
@@ -590,10 +630,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Whats His Name/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "T-Z.Whats-His-Name";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Whats His Name/Whats His Name-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -601,10 +649,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "Whats His Name/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "T-Z.Whats-His-Name";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Whats His Name/Whats His Name-Bridging-Header.h";
 			};
 			name = Release;
 		};
